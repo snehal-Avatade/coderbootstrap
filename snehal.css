@@ -1,0 +1,303 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    list-style: none;
+    font-family: 'Nunito',sans-serif;
+}
+body{
+    background-color: rgb(27, 221, 221);
+}
+
+.main-content{
+    min-height:100vh;
+    width: 75%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.left-section{
+     grid-column: span 2;
+     height: 100%;
+     background-color:royalblue;
+}
+.Right-section{
+    grid-column: span 5;
+    height: 100%;
+    background-color: rgb(224, 227, 235);
+}
+.left-content{
+    padding: 1rem 2rem;
+}
+.profile{
+
+    width: 100%;
+    border-bottom:solid 2px black; 
+    padding-bottom: 7px;
+    padding-top: 5px;
+
+}
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color:black;
+}
+.name{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.career{
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    text-transform:uppercase  ;
+    letter-spacing: 1px;
+    padding-bottom:1.2rem;;
+}
+
+.main-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 7px;
+}
+.contact-information{
+  
+    width: 100%;
+    border-bottom:solid 2px black; 
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.contact-information ul{
+    padding: 0px;
+    
+}
+.contact-information ul li{
+    padding: 3px;
+    font-size: 17px;
+    color: rgb(15, 17, 17);
+    margin: 0px;
+    text-align: start;
+}
+.languages{
+    
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.lang ul li{
+    display: inline-block;
+    color: black;
+    background-color:rgb(194, 186, 186);
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 17px;
+    font-weight:550;
+}
+.Skills-section{
+
+   
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.Skills ul li{
+    display: inline-block;
+    color:black;
+    background-color:rgb(194, 186, 186);
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 17px;
+    font-weight:550;
+}
+.Project-section{
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.projects{
+    line-height: 1.6rem;;
+    color:black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+   
+    
+
+}
+p{
+    font-size: 0.9rem;
+}
+
+.right-main-content{
+    padding: 1rem 1.5rem;
+    color: black;
+  
+}
+.About{
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.Right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 7px;
+ 
+}
+.para{
+    line-height: 1.6rem;;
+    color:black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+}
+.Education-section{
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.Edu{
+    line-height: 1.6rem;;
+    color:black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px; 
+
+}
+.Degree{
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: black;
+}
+
+.Deploma{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+
+}
+    
+.ssc{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px
+}
+.para1{
+    line-height: 1rem;;
+    color: rgb(66, 64, 64);
+    font-size: 0.9rem;
+}
+.trainings{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-left: 1.3rem;
+}
+.Trainng-section{
+    width: 100%;
+    border-bottom:solid 2px black;
+    padding-bottom: 7px;
+    padding-top: 5px;
+
+}
+.circular-activities-section{
+    width: 100%;
+    border-bottom:solid 2px black; 
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.circular-activities{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-left: 1.3rem;
+}
+.Hobbies-section{
+    width: 100%;
+    border-bottom:solid 2px black; 
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.Hobbies{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    padding-left: 1.3rem;
+}
+.personal-details{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px; 
+    padding-left: 1.3rem;
+
+}
+.Personal-section{
+    width: 100%;
+    border-bottom:solid 2px black; 
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.declarion-section{
+    width: 100%;
+    border-bottom:solid 2px black;  
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.Declaration{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px; 
+}
+
+.left{
+    
+    position: absolute;
+    margin-top: 3.5rem;
+    margin-left: 0rem
+    
+
+}
+.lefts{
+
+    position:absolute;
+    margin-top: 4.5rem;
+    margin-left: 0rem;
+
+}
+.right{
+    position: absolute;
+    padding-block: 12px;
+    margin-top: 3.5em;
+    margin-left: 27rem;
+}
+
+
+
+
+
+
+
+
+
+
